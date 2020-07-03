@@ -1,0 +1,92 @@
+body{
+	margin:0;
+}
+.scene{
+	background:url(bg_2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 120%;
+	} 
+
+.scene>div{
+	position: absolute;
+	bottom: 0;
+}
+.buildings{
+	left: 2%;
+	width: 1277px;
+	height: 718px;
+	background:url(../img/bg.png)no-repeat;  
+}
+#header{
+	position: absolute;
+	width: 100%;
+	height: 120%;
+	z-index: 5;
+}
+.logo{
+	width: 18%;
+	margin-left: 3%;
+	margin-top: 1%;
+}
+.menu{
+	font-family: 'Poppins', sans-serif;
+	font-size: 150%;
+	text-align: center;
+	float: right;
+	margin-top: 2%;
+	width: 77%;
+	height: 5%;
+}
+.menu p1{
+	border: solid 2px rgba(0, 0, 0, 0);
+	padding: 1%;
+	margin-right: 6%;
+	color: white;
+	cursor: pointer;
+	transition: .5s;
+}
+.menu p1:hover{
+	border: solid 2px rgba(255, 255, 255, 255);
+	border-radius: 50px;
+}
+.information{
+	text-align: center;
+	margin-top: 7%;
+	width: 60%;
+	margin-left: 20%;
+	height: 60%;
+}
+.information p1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: 400%;
+	color: white;
+}
+.information p2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 120%;
+	color: white;
+}
+.but{
+	cursor: pointer;
+	margin-top: 5%;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid 3px rgba(255, 255, 255, 255);
+	width: 20%;
+	height: 13%;
+	font-size:150%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	border-radius: 50px;
+	color: white;
+	transition: .5s;
+}
+.but:hover{
+	background-color: white;
+	color: #9932CC;
+}
